@@ -1,0 +1,19 @@
+#test{
+    font-style: italic;
+}
+p{
+    color: red;
+
+}
+.vip{
+    color: blue;
+}
+.super__vip{
+    color: blueviolet;
+}
+ul.a li{
+    color: orange;
+}
+ul.b li{
+    color: black;
+}
