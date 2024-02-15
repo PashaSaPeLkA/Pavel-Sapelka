@@ -5,61 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+         img{
+            float: right;
+        }
         .navigation{
             width: 200px;
             height: 302px;
             background-color: rgb(206, 203, 203);
             float: left;
-            margin-bottom: 4px;
         }
-        .article{
-            width: 1650px;
+        .article1{
             background-color: grey;
-            float: left;
+            clear: right;
+        }
+        .article2{
+            background-color: grey;
+            margin-top: 4px;
             margin-bottom: 4px;
         }
         .footter{
             background-color: rgb(206, 203, 203);
             clear: both;
         }
-        img{
-            float: right;
+        .line{
+            background-color: 128,128,128,0.432;
         }
     </style>
 </head>
 <body>
-    <div class="navigation"><strong>Блок навигации</strong>
-    <ul>
-        <li>Ширина 15em</li>
-        <li>Должен присутствовать цвет фона</li>
-        <li>Распологаться слева</li>
-        <li>Блок навигации наполните контентом достаточным, чтобы по высоте он 
-            начинал захватывать вторую статью,как показано в данном примере
-        </li>
-    </ul>
-    </div>
-    <div class="article"><strong>Стаья 1</strong>
-        <p>Размер блока:<br>
+    <div class="line">
+       <div class="navigation"><strong>Блок навигации</strong>
+          <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Распологаться слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы по высоте он 
+                начинал захватывать вторую статью,как показано в данном примере
+            </li>
+          </ul>
+       </div>
+       <div class="article1"><strong>Стаья 1</strong>
+         <p>Размер блока:<br>
            Занимает всю доступную ширину<br>
            Должен присутсвовать цвет фона<br>
            Во всех "статьях" сделайте отступ снизу от сосндней равным. 2em, при помощи свойства margin- <br>
-           bottom.
+           bottom.</p>
+       </div>
+       <div class="article2"><strong>Статья 2</strong>
+        <p>Размер блока:<br>
+           Заниает всю доступную ширину<br>
+           Должен присутсвовать цвет фона<br>
+           Во всех "статьях" сделайте отступ снизу от сосндней равным. 2em, при помощи свойства margin- <br>
+           bottom. Картинка вставлена при помощи тега, плавание организованно по краю внутри<br>
+           данной статьи для этой картинки.
         </p>
-    </div>
-    <div class="article"><strong>Статья 2</strong>
-       <p>Размер блока:<br>
-        Заниает всю доступную ширину<br>
-        Должен присутсвовать цвет фона<br>
-        Во всех "статьях" сделайте отступ снизу от сосндней равным. 2em, при помощи свойства margin- <br>
-        bottom. Картинка вставлена при помощи тега, плавание организованно по краю внутри<br>
-        данной статьи для этой картинки.
-       </p>
        <img src="mal.png">
-    </div>
-    <div class="footter">
-        <p>Нижний блок,подвал. Занимает всю доступную ширину. Высота определяетсяпомещенным внутрь контентом
-        </p>
-    </div>
-    
+       <div style="clear: both;"></div>
+       </div>
+       <div class="footter">
+         <p>Нижний блок,подвал. Занимает всю доступную ширину. Высота определяетсяпомещенным внутрь контентом
+         </p>
+       </div>
+    </div>    
 </body>
 </html>
