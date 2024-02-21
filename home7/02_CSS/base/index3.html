@@ -13,20 +13,33 @@
         }
         .article{
             background-color: grey;
-            margin-bottom: -12px;
-            margin-left: 205px;
+            margin-bottom: .2em;
+            padding-left: 200px;
+        }
+        .article2{
+            background-color: grey;
+            margin-bottom: .2em;
+            padding-left: 200px;
         }
         .wrap{
-            background-color: grey;
+            background-color: white;
         }
         .footter{
             background-color: rgb(206, 203, 203);
+            clear: both;
         }
         .clear{
+            background-color: white;
             clear: both;
         }
         img{
             float: right;
+        }
+        h4{
+            margin-top: -4px;
+        }
+        .vip1{
+            margin-top: -10px;
         }
     </style>
 </head>
@@ -53,8 +66,8 @@
                 bottom
             </p>
         </div>
-        <div class="article">
-            <h4>Статья 2</h4>
+        <div class="article2">
+            <h4 class="vip1">Статья 2</h4>
             <p>
                 Размер блока:<br>
                 Заниает всю доступную ширину<br>
@@ -64,13 +77,10 @@
                 данной статьи для этой картинки.
             </p>
             <img src="mal.png">
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
     </div>
-        <div class="footter">
-            <p>
-                Нижний блок,подвал. Занимает всю доступную ширину. Высота определяетсяпомещенным внутрь контентом
-            </p>
+        <div class="footter">Нижний блок,подвал. Занимает всю доступную ширину. Высота определяетсяпомещенным внутрь контентом
         </div>
 </body>
 </html>

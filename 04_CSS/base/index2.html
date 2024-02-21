@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vip1{
+            background-color: grey;
+        }
+        table{
+            border-collapse: separate;
+            width: 700px;
+        }
+        td{
+            border: 2px dotted gray;
+            border-top: 2px dotted gray;
+            padding: 2px;
+        }
+        td:first-child {
+            border-left: none;
+        }
+        td:last-child{
+            border-right: none;
+        }
+        table tr:hover{
+            background-color: aqua;
+        }
+        h4{
+            margin: -4px;
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="vip1">
+            <td>ФИО</td><td>пол</td><td>должность</td><td>дата рож.</td><td>Данные 01</td><td>Данные 02</td>
+        </tr>
+        <tr>
+            <td>Иванов Иван Иванович</td><td>М</td><td>Начальник</td><td>01.01.1960</td><td>4567</td><td>3453</td>
+        </tr>
+        <tr class="vip1">
+            <td>Петрова Илонна Петровна</td><td>Ж</td><td>Секретарь</td><td>01.01.1989</td><td>98795</td><td>46523</td>
+        </tr>
+        <tr>
+            <td>Сидоров Илья Игоревич</td><td>М</td><td>Бухгалтер</td><td>01.01.1979</td><td>743434</td><td>987979</td>
+        </tr>
+        <tr class="vip1">
+            <td>Пупин Фёдор Фёдорович</td><td>М</td><td>Водитель</td><td>01.01.1963</td><td>74323434</td><td>9232379</td>
+        </tr>
+        <tr>
+            <td>Крупин Сергей Иванович</td><td>М</td><td>Водитель 2</td><td>01.01.1983</td><td>3234534</td><td>923123379</td>
+        </tr>
+    </table>
+    <h4>Данные о сотрудниках</h4>
+</body>
+</html>
