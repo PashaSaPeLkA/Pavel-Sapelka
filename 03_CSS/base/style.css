@@ -21,7 +21,7 @@ div.Days > div {
 div.Days > div:hover div.Food { 
     display: block; 
     position: absolute; 
-    left: 0%; 
+    left: 1%; 
     top: 130%; 
     z-index: 1
 }
