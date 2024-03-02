@@ -1,0 +1,31 @@
+.vip1{
+    background-color: grey;
+}
+.vip3{
+    background-color: grey;
+}
+.vip5{
+    background-color: grey;
+}
+table{
+    border-collapse: separate;
+    width: 700px;
+}
+td{
+    border: 2px dotted gray;
+    border-top: 2px dotted gray;
+    padding: 2px;
+}
+td:first-child {
+    border-left: none;
+}
+td:last-child{
+    border-right: none;
+}
+table tr:hover{
+    background-color: aqua;
+}
+h4{
+    margin: -4px;
+    margin-left: 250px;
+}

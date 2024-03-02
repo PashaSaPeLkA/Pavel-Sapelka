@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    @import"style.css";
+</style>
+</body>
+<table>
+    <tr class="vip1">
+        <td>ФИО</td><td>пол</td><td>должность</td><td>дата рож.</td><td>Данные 01</td><td>Данные 02</td>
+    </tr>
+    <tr class="vip2">
+        <td>Иванов Иван Иванович</td><td>М</td><td>Начальник</td><td>01.01.1960</td><td>4567</td><td>3453</td>
+    </tr>
+    <tr class="vip3">
+        <td>Петрова Илонна Петровна</td><td>Ж</td><td>Секретарь</td><td>01.01.1989</td><td>98795</td><td>46523</td>
+    </tr>
+    <tr class="vip4">
+        <td>Сидоров Илья Игоревич</td><td>М</td><td>Бухгалтер</td><td>01.01.1979</td><td>743434</td><td>987979</td>
+    </tr>
+    <tr class="vip5">
+        <td>Пупин Фёдор Фёдорович</td><td>М</td><td>Водитель</td><td>01.01.1963</td><td>74323434</td><td>9232379</td>
+    </tr>
+    <tr class="vip6">
+        <td>Крупин Сергей Иванович</td><td>М</td><td>Водитель 2</td><td>01.01.1983</td><td>3234534</td><td>923123379</td>
+    </tr>
+</table>
+<h4>Данные о сотрудниках</h4>
+<button id="click">click</button>
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function($){
+            $('.vip2').click(function(){
+                $('.vip2').hide();
+            })
+            $('.vip3').click(function(){
+                $('.vip3').hide();
+            })
+            $('.vip4').click(function(){
+                $('.vip4').hide();
+            })
+            $('.vip5').click(function(){
+                $('.vip5').hide();
+            })
+            $('.vip6').click(function(){
+                $('.vip6').hide();
+            })
+            $('#click').click(function(){
+                $('td').show();
+            })
+        });
+       
+            
+        
+    </script>
+</body>
+</html>
